@@ -32,6 +32,6 @@ end
       if count_array.count == 0
     return 0
   end
-    return count_array.count
+    return count_array.delete_if {|word| word.size < 1}.count
   end
 end
