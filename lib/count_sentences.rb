@@ -27,7 +27,7 @@ end
   end
 
   def count_sentences
-    count_array = self.split(/[!]/)
+    count_array = self.split(/[!.?%]/)
       if count_array.count == 0
     return 0
   end
