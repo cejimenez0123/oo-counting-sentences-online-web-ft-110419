@@ -28,7 +28,7 @@ end
 
   def count_sentences
     count_array = self.split(/[!.?%]/)
-    binding.pry
+
       if count_array.count == 0
     return 0
   end
